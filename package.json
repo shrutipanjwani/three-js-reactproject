@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "drei": "^1.5.7",
+    "lerp": "^1.0.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-intersection-observer": "^8.29.1",
+    "react-scripts": "3.4.3",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.0.6",
+    "three": "^0.121.1"
   },
   "scripts": {
     "start": "react-scripts start",
