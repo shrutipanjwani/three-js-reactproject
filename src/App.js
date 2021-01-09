@@ -9,15 +9,15 @@ import { useInView } from "react-intersection-observer";
 
 const Model = ({modelPath}) => {
   const gltf = useGLTFLoader(modelPath, true);
-  return <primitive object={gltf.scene} dispose={null} />;
+  return <primitive object={gltf.scene} dispose={null} />;  
 };
 
 const Lights = () => {
   return (
     <>
-      /* Ambient Light illuminates lights for all objects */
+      {/* Ambient Light illuminates lights for all objects */}
       <ambientLight intensity={0.3} />
-      /* Diretion light */
+      {/* Diretion light */}
       <directionalLight position={[10, 10, 5]} intensity={1} />
       <directionalLight
         castShadow
@@ -31,7 +31,7 @@ const Lights = () => {
         shadow-camera-top={10}
         shadow-camera-bottom={-10}
       />
-      /* Spotlight Large overhead light */
+      {/* Spotlight Large overhead light */}
       <spotLight intensity={1} position={[1000, 0, 0]} castShadow />
     </>
   );

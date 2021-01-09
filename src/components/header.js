@@ -8,13 +8,13 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href='/'>discover</a>
+              <a href='/'>explore</a>
             </li>
             <li>
               <a href='/'>products</a>
             </li>
             <li>
-              <a href='/'>solutions</a>
+              <a href='/'>shop</a>
             </li>
             <li>
               <a href='/'>reach</a>
